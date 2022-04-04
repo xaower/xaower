@@ -3,139 +3,61 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
+external-controller: :9090
 proxies:
-  - {"name":"🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1","server":"122.9.62.60","port":1003,"type":"ss","country":"🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1","cipher":"chacha20-ietf-poly1305","password":"8eff2ae2afb4d6cbc95dd8006cbadb3ed4077dc878b511edce084361d30b263a"}
-  - {"name":"🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2","server":"122.9.62.16","port":2303,"type":"ss","country":"🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2","cipher":"chacha20-ietf-poly1305","password":"306b65638148377ebc270d02ed4a8f131e3f757741d27be11ed65fc924d50562"}
-  - {"name":"🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3","server":"122.9.62.6","port":5557,"type":"ss","country":"🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3","cipher":"chacha20-ietf-poly1305","password":"5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c"}
-  - {"name":"IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4","server":"122.9.62.6","port":5557,"type":"ss","country":"IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4","cipher":"chacha20-ietf-poly1305","password":"5912725b993997cf9a926efaa3827f2363a0edc73744ad39976bcb78bfd2995c"}
-  - {"name":"🇺🇲42美国∞直连_5","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇲42美国∞直连_5","skip-cert-verify":true,"udp":true,"password":"476ddab3-29a2-4a32-8f0d-33cf6add3722"}
-  - {"name":"🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6","server":"122.9.62.44","port":2945,"type":"ss","country":"🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6","cipher":"chacha20-ietf-poly1305","password":"2d5559dc1d6c1d3581f4ee327ac93b58359c963da44aa92faef307ee07a11261"}
-  - {"name":"🇺🇸美国纽约IPLC专线_7","server":"122.9.54.75","port":5590,"type":"ss","country":"🇺🇸美国纽约IPLC专线_7","cipher":"chacha20-ietf-poly1305","password":"82e2b056d73b89bfbbe0ef9127315b9a0144e13bcd2f545c59bce6867a4fd723"}
-  - {"name":"🇺🇲44美国∞直连_8","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇲44美国∞直连_8","skip-cert-verify":true,"udp":true,"password":"ddcfe6cb-d001-430e-9781-427496e3ed1d"}
-  - {"name":"🇺🇸101美国∞直连_9","server":"azhk.relay.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇸101美国∞直连_9","skip-cert-verify":true,"udp":true,"password":"52face98-c4cb-4299-aa38-9546085b0619"}
-  - {"name":"🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10","server":"122.9.62.57","port":1001,"type":"ss","country":"🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10","cipher":"chacha20-ietf-poly1305","password":"d448c5c3968140fcd5470e035d443c502faa163363b313e01bcbb2c024d2a510"}
-  - {"name":"🇺🇲45美国∞直连_11","server":"azhk.relay.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇲45美国∞直连_11","skip-cert-verify":true,"udp":true,"password":"52face98-c4cb-4299-aa38-9546085b0619"}
-  - {"name":"🇺🇲41美国∞直连_13","server":"azhk.node.qchwnd.moe","port":443,"type":"trojan","country":"🇺🇲41美国∞直连_13","skip-cert-verify":true,"udp":true,"password":"28d98f761addcfe6cb-d001-430e-9781-427496e3ed1d"}
-  - {"name":"香港4132a_16","server":"122.9.54.75","port":4132,"type":"ss","country":"香港4132a_16","cipher":"chacha20-ietf-poly1305","password":"a3c206f508a4e15b0c837117af7c73b37f20ad62537f02c18085d05eec48f312"}
-  - {"name":"🇸🇬SG_157","server":"3.0.180.140","port":28443,"type":"trojan","country":"🇸🇬SG_157","skip-cert-verify":true,"udp":true,"password":"a7d0812a-f8e3-45f9-9a57-b2b3392d765b"}
+  - name: 一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: "29980"
+    username: "442993652168396800"
+    password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+    tls: true
+    skip-cert-verify: true
+- name: 🇭🇰 Http|香港01
+     server: 183.240.9.28
+     port: 29980
+     type: http
+     username: "442993652168396800"
+     password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+     tls: true
+     skip-cert-verify: true
+    _index: 0
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
+      - 一键连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
+      - DIRECT
+      - 一键连
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,20 +80,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰IOS小火箭专用_香港(中国)-43[IPLC]_1
-      - 🇭🇰IOS小火箭专用_香港(中国)-26[HKBN][IPLC]_2
-      - 🇭🇰IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_3
-      - IOS小火箭专用_香港(中国)-30[HKBN][IPLC]_4
-      - 🇺🇲42美国∞直连_5
-      - 🇭🇰IOS小火箭专用_香港(中国)-12[HKBN][IPLC]_6
-      - 🇺🇸美国纽约IPLC专线_7
-      - 🇺🇲44美国∞直连_8
-      - 🇺🇸101美国∞直连_9
-      - 🇭🇰IOS小火箭专用_香港(中国)-42[IPLC]_10
-      - 🇺🇲45美国∞直连_11
-      - 🇺🇲41美国∞直连_13
-      - 香港4132a_16
-      - 🇸🇬SG_157
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1919,7 +1827,6 @@ rules:
   - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -2289,6 +2196,9 @@ rules:
   - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
   - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+  - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
+  - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
+  - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -2302,8 +2212,6 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
-  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
-  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
@@ -2315,8 +2223,6 @@ rules:
   - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
   - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
   - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
-  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
-  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
   - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
   - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -2709,8 +2615,6 @@ rules:
   - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
   - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
   - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
-  - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
-  - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
   - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,中国,🎯 全球直连
@@ -3175,8 +3079,6 @@ rules:
   - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
   - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
   - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
-  - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
-  - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
   - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
   - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
   - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -3246,7 +3148,6 @@ rules:
   - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
   - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
   - DOMAIN-SUFFIX,suning.com,🎯 全球直连
-  - DOMAIN-SUFFIX,synology.com,🎯 全球直连
   - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
   - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
   - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
