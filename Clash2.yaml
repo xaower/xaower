@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-- name: "\U0001F3F3️‍⚧️TG频道@Jsnzk"
+- name: "\U0001F3F3️‍⚧️赠人以渔"
   password: 2ef91648-089f-4c81-b34d-06f072ec51dd
   server: jc.ap.fastqvpn.com
   type: http
@@ -13,7 +13,7 @@ proxies:
   username: 442993652168396800
   tls: true
   skip-cert-verify: true
-- name: "\U0001F3F3️‍\U0001F308TG群组@Jsnzk2"
+- name: "\U0001F3F3️‍\U0001F308赠人以渔"
   password: 2ef91648-089f-4c81-b34d-06f072ec51dd
   server: 120.232.251.206
   type: http
@@ -21,7 +21,7 @@ proxies:
   username: 442993652168396800
   tls: true
   skip-cert-verify: true
-- name: "\U0001F3C4‍♀️极简配置@Jsnzkpg"
+- name: "\U0001F3C4‍♀️极简配置@赠人以渔"
   password: 2ef91648-089f-4c81-b34d-06f072ec51dd
   server: 120.232.251.206
   type: http
@@ -288,9 +288,9 @@ proxy-groups:
   url: https://api.v2fly.org/checkConnection.svgz
   interval: 150
   proxies:
-  - "\U0001F3C4‍♀️极简配置@Jsnzkpg"
-  - "\U0001F3F3️‍⚧️TG频道@Jsnzk"
-  - "\U0001F3F3️‍\U0001F308TG群组@Jsnzk2"
+  - "\U0001F3C4‍♀️极简配置@赠人以渔"
+  - "\U0001F3F3️‍⚧️赠人以渔"
+  - "\U0001F3F3️‍\U0001F308赠人以渔"
   - "\U0001F1FA\U0001F1E6"
   - "\U0001F1FA\U0001F1FE"
   - "\U0001F1FA\U0001F1FF"
