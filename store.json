@@ -1,11 +1,11 @@
 {
-    "name": "公众号: 知1墙",
+    "name": "公众号: 知墙",
     "message": "资源的搬运工，本站软件来源于互联网，入侵权、请联系删除，软件仅供学习参考，请勿用于非法活动！",
-    "identifier": "11",
-    "sourceURL": "12",
+    "identifier": "不定期更新软件，欢迎下载",
+    "sourceURL": "",
     "sourceicon": "https://avatars.githubusercontent.com/u/99131991?v=4",
-    "payURL": "13",
-    "unlockURL": "14",
+    "payURL": "",
+    "unlockURL": "",
     "apps": [
         {
             "name": "酷我音乐",
