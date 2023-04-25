@@ -62,5 +62,16 @@
             "tintColor": "",
             "size": "53000000"
         },
+  {
+            "name": "推特-增强版",
+            "version": "9.51.1",
+            "versionDate": "2023-04-25",
+            "versionDescription": "➜秋名山BHTwitter高度自定义插件汉化➜去广告无水印下载修改布局等➜BHT选项在推特➠设置和支持➠设置和隐私",
+            "lock": "0",
+            "downloadURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%8E%A8%E7%89%B9/Twitter_9.51.1_BHT3.9.1.ipa",
+            "iconURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%8E%A8%E7%89%B9/689DF32B-E0ED-46CF-A328-37FF3754B36E.png",
+            "tintColor": "",
+            "size": "98000000"
+        },
     ]
 }
