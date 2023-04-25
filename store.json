@@ -30,15 +30,36 @@
             "size": "135850000"
         },
    {
-            "name": "微信",
+            "name": "微信-推送专用版",
             "version": "8.0.31",
             "versionDate": "2023-04-25",
-            "versionDescription": "巨魔请勿签名此版本,∙微信净化3.1—7∙Misaka助手 1.0.0 🆕∙快斗(自行移除)   🆕∙拍所有人 0.1—5   🆕",
+            "versionDescription": "∙微信净化3.1—7∙Misaka助手 1.0.0 🆕∙快斗(自行移除)   🆕∙拍所有人 0.1—5   🆕",
             "lock": "0",
             "downloadURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E5%BE%AE%E4%BF%A18.0.31/%E5%BE%AE%E4%BF%A1_8.0.31.ipa",
             "iconURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E5%BE%AE%E4%BF%A18.0.31/27B949CC-883C-4932-BAC6-F768D1F94260.png",
             "tintColor": "",
             "size": "270000000"
-        }
+        },
+  {
+            "name": "youtube增强版",
+            "version": "18.15.1",
+            "versionDate": "2023-04-25",
+            "versionDescription": "
+             ➜ 没有广告 🚫
+             ➜ uYouPlus 菜单
+             ➜ 画中画
+             ➜ 在后台播放
+             ➜ 下载 mp3 和 mp4
+             ➜ 可以登录账号
+             ➜ +更多功能
+             ➜  @HeangIOSIPA
+
+             📝注意：有些功能可能不工作",
+            "lock": "0",
+            "downloadURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%B2%B9%E7%AE%A1/YouTube%20%5Bv18.15.1%5D_uYou%20%5Bv3.0%5D.ipa",
+            "iconURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%B2%B9%E7%AE%A1/485A97B4-E8D1-4BD7-A39B-51D6AE39C8B9.png",
+            "tintColor": "",
+            "size": "124000000"
+        },
     ]
 }
