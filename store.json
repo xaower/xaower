@@ -128,5 +128,16 @@
             "tintColor": "",
             "size": "33000000"
         },
+  {
+            "name": "IPA直链提取",
+            "version": "1.0",
+            "versionDate": "2023-04-27",
+            "versionDescription": "获取ipa的地址并下载",
+            "lock": "0",
+            "downloadURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%8F%90%E5%8F%96ipa%E7%9B%B4%E9%93%BE/%E6%8F%90%E5%8F%96IPA%E7%9B%B4%E9%93%BE.ipa",
+            "iconURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E6%8F%90%E5%8F%96ipa%E7%9B%B4%E9%93%BE/73428D34-E285-40C8-BE70-25B0C252C717.jpeg",
+            "tintColor": "",
+            "size": "1000000"
+        },
     ]
 }
