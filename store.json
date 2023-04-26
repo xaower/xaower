@@ -139,5 +139,16 @@
             "tintColor": "",
             "size": "1000000"
         },
+  {
+            "name": "Blacklist企业证书黑名单",
+            "version": "1.0",
+            "versionDate": "2023-04-27",
+            "versionDescription": "企业证书掉后，还可以进行签名，自行百度用法",
+            "lock": "0",
+            "downloadURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E8%AF%81%E4%B9%A6%E9%BB%91%E5%90%8D%E5%8D%95/Blacklist.ipa",
+            "iconURL": "https://pan.9527520.xyz/d/IOS/%E8%BD%AF%E4%BB%B6%E6%BA%90/%E8%AF%81%E4%B9%A6%E9%BB%91%E5%90%8D%E5%8D%95/39B431EE-3E72-438A-8FAA-8AD9B304577B.png",
+            "tintColor": "",
+            "size": "1500000"
+        },
     ]
 }
